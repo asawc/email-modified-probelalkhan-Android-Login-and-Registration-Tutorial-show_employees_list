@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckedTextView
+        android:id="@+id/symbol"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:singleLine="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:ellipsize="marquee"
+        android:text="Symbol"
+        android:textSize="15dp"/>
+
+    <CheckedTextView
+        android:id="@+id/name"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:singleLine="true"
+        android:layout_width="150dp"
+        android:layout_toRightOf="@id/symbol"
+        android:layout_height="50dp"
+        android:ellipsize="marquee"
+        android:text="Name"
+        android:textSize="15dp"/>
+
+    <CheckedTextView
+        android:id="@+id/surname"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:singleLine="true"
+        android:layout_width="150dp"
+        android:layout_toRightOf="@id/name"
+        android:layout_height="50dp"
+        android:ellipsize="marquee"
+        android:text="surname"
+        android:textSize="15dp"/>
+
+</RelativeLayout>
